@@ -5,7 +5,7 @@
 //   const [messages, setMessages] = useState([]);
 //   const [input, setInput] = useState("");
 //   const [isLoading, setIsLoading] = useState(false);
-//   const API_KEY = "AIzaSyCcpZ8utOr8xCRTc-QufZWKSDPIbYz2v7Q";
+//   const API_KEY = "";
 
 //   const sendMessage = async () => {
 //     if (!input.trim()) return;
@@ -140,7 +140,7 @@
 //   const [chats, setChats] = useState([]);
 //   const [currentChatId, setCurrentChatId] = useState(null);
 
-//   const API_KEY = "AIzaSyCcpZ8utOr8xCRTc-QufZWKSDPIbYz2v7Q";
+//   const API_KEY = "";
 
 //   // Load chats from localStorage on component mount
 //   useEffect(() => {
@@ -315,7 +315,7 @@
 //   const [chats, setChats] = useState([]);
 //   const [currentChatId, setCurrentChatId] = useState(null);
 
-//   const API_KEY = "AIzaSyCcpZ8utOr8xCRTc-QufZWKSDPIbYz2v7Q";
+//   const API_KEY = "";
 
 //   useEffect(() => {
 //     const storedChats = JSON.parse(localStorage.getItem("chats")) || [];
@@ -559,7 +559,7 @@
 //   const [chats, setChats] = useState([]);
 //   const [currentChatId, setCurrentChatId] = useState(null);
 
-//   const API_KEY = "AIzaSyCcpZ8utOr8xCRTc-QufZWKSDPIbYz2v7Q";
+//   const API_KEY = "";
 
 //   useEffect(() => {
 //     const storedChats = JSON.parse(localStorage.getItem("chats")) || [];
@@ -793,7 +793,7 @@ const Chatbot = () => {
   // New state to manage sidebar open/close
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
-  const API_KEY = "AIzaSyCcpZ8utOr8xCRTc-QufZWKSDPIbYz2v7Q";
+  const API_KEY = "";
 
   useEffect(() => {
     const storedChats = JSON.parse(localStorage.getItem("chats")) || [];
